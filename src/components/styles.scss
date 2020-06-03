@@ -1,0 +1,32 @@
+.flyout-workout-block {
+    display: flex;
+    flex: 1;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+.flyout-workout-inner-block {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.flyoutIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
+.flyoutList{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+    height: 500px;
+    background-color: rgba(255,255,255,.5);
+}
+a {
+    text-decoration: none;
+}

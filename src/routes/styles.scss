@@ -1,0 +1,112 @@
+.outter-block {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.inner-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center  ;
+  width: 300px;
+  padding: 10px;
+}
+
+input{
+  margin-bottom: 8px;
+  text-align: center;
+  height: 40px;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+//Home Random
+.random-workout-block{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.random-workout-inner-block{
+  display: flex;
+  position: relative;
+  flex: 0 0 30%;
+  max-width: 440px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, .3);
+  padding: 10px;
+    .imgDisplay{ height: 300px; padding: 10px; margin: auto;  display: block; max-width: 350px;}
+    .typeDisplay{ font-weight: 600; font-size: 1.7rem; display: block;}
+    .buttonContainer {
+      .setsDisplay{ font-size: 1.5rem; font-weight: 600; display: block;}
+      .repsDisplay{ font-size: 1.5rem; font-weight: 600; display: block;}
+    }
+    @media (max-width: 768px) {
+      flex: 1;
+    }
+  }
+  
+  .gymRoutine {
+    width: 100%;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-content: center;
+    flex-direction: row; 
+    justify-content: center;
+    button {
+      margin: 0 10px;
+    }
+  }
+  
+  .lineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    div {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  .notesContainer {
+    display: block;
+    width: 100%;
+    .notesInnerContainer{
+      padding: 5px;
+      width: 100%;
+      input {
+        width: 70%;
+        height: 3rem;
+      }
+    }
+  }
+  
+  .onSubmitRecBtn {
+    margin: 20px;
+  }
+  
+  .uploadButton{
+    float: right;
+    font-size: 1.2rem;
+  }
+  
+  .hide{
+    display:none;
+  }
